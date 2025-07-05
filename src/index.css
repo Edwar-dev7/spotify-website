@@ -1,0 +1,27 @@
+:root {
+  --spotify-green: #1DB954;
+  --spotify-dark: #121212;
+  --spotify-bg: #181818;
+  --spotify-light: #b3b3b3;
+  --spotify-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--spotify-bg);
+  color: var(--spotify-white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
